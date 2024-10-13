@@ -1,13 +1,13 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: linen;
+    background-color: rgb(101, 177, 240);
     font-family: sans-serif;
 }
 .navbar{
     padding: 0px;
     margin: 0px;
-    background-color: rgb(101, 84, 22);
+    background-color: white;
     overflow: hidden;
     color: whitesmoke;
 }
@@ -50,10 +50,12 @@ a {
 }
 #h1 {
     text-align: center;
+    color: #000;
     font-weight: 300px;
     margin: 0px;
     padding: 10px 0px;
-    background-image: linear-gradient(rgb(101, 84, 22),rgb(248, 230, 162));
+    background-color: linen;
+
 }
 .jai{
     display: flex;
@@ -151,11 +153,22 @@ transition: .4s;
     border: 2px solid black;
     border-radius: 0px 20px;
     padding: 30px;
-    background-color: rgb(220, 196, 172);
+    background-color: linen;
     width: 41%;
+    float: left;
+}
+.home1 {
+    margin: 10px 30px;
+    border: 2px solid black;
+    border-radius: 0px 20px;
+    padding: 30px;
+    background-color: rgb(80, 117, 147);
+    width: 41%;
+    float: right;
 }
 .home:hover {
     box-shadow: 0 0 10px #000000;
+    background-color: rgb(174, 160, 146);
 }
 .slideshow-container .text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -284,7 +297,7 @@ transition: .4s;
     display: flex;
 }
 .insta :hover{
-    background-color: rgb(226, 43, 165;
+    background-color: rgb(226, 43, 165);
 }
 .youtube :hover{
     background-color: rgb(229, 12, 12);
@@ -295,4 +308,81 @@ transition: .4s;
 .twitter :hover{
     background-color: blue;
 }
+p,h2 {
+    margin: 10px 30px
+}
+.hel1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    flex-direction: row;
+}
+.man{
+    display: flex;
+    flex-direction: row;
+}
+
+.sci a{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    color: #000;
+    margin: 0 8px;
+    transition: .4s;
+    }
+    
+    .sci a:hover{
+        background: #ff0000 ;
+        color: #fff;
+        box-shadow: 0 0 10px #ff0000;
+    
+    }
+    .img-box .img-item{
+        width: 10vw;
+        height: 10vw;
+        background: red;
+        border-radius: 50%;
+        display: flex;
+    }
+    .img-box  .img-item .img-body{
+     position:relative;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     background:#000;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     overflow:hidden;
+    }
+    .img-box .img-item  .img-body img{
+        positon:absolute;
+        display: block;
+        width: 85%;
+        object-fit: cover;
+        display: flex;
+    }
+    .are{
+        font-weight: bolder;
+        padding: 25px;
+        justify-content: center;
+        text-align: center;
+
+       
+    }    .are :hover{
+        background-color: aliceblue;
+        border-radius: 50%;
+
+        
+    }
+    .hello{
+        font-weight: bold;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+    }
     
